@@ -1,0 +1,22 @@
+{
+  "name": "Sempli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "sempli-server": "nodemon index"
+  },
+  "author": "Team Sempli.",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-fileupload": "^0.1.2",
+    "jwt-simple": "^0.5.1",
+    "method-override": "^2.3.8",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.5"
+  }
+}
